@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
       $con = mysqli_connect($config["host"], $config["user"], $config["pass"], $config["db"]) 
       or die(mysqli_connect_error());
-      $query = mysqli_query($con, "SELECT * FROM `produtos` WHERE `codigo` = '$codigo'") or die(mysqli_error());
+      $query = mysqli_query($con, "SELECT * FROM `produtos` WHERE `codigo` = '$codigo'") or die(mysqli_error($con));
       $count = mysqli_num_rows($query);
       if ($count != 1) {
         mysqli_close($con);
