@@ -1,7 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>SeuServer - Obrigado</title>
+	<title>
+	<?php $config = include('config.php');printf($config["server-name"] . " - Obrigado");?>
+	</title>
 </head>
 <body>
 <h2>Obrigado por fazer uma doação.</h2>
@@ -10,6 +12,6 @@
 <br><br>
 <h3><font color="red">OBS: </font>Logo após a confirmação, seu VIP será ativado automaticamente no server.</h3>
 <br><br>
-<a href="http://seusite.com.br">Clique aqui para sair dessa página</a>
+<a href="index.php">Clique aqui para sair dessa página</a>
 </body>
 </html>
