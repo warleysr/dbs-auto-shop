@@ -9,7 +9,7 @@ return array(
 	# O token do modo SandBox é diferente do modo de Produção
 	'sandbox' => false,
 	# URL para redirecionar após a compra
-	'redirectURL' => 'http://seusite.com.br/vip/obrigado.html',
+	'redirectURL' => 'http://seusite.com.br/vip/obrigado.php',
 	# URL para retornar notificações automáticas
 	'notificationURL' => 'http://seusite.com.br/vip/retorno.php',
 	# Banco de Dados
