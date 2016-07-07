@@ -12,6 +12,7 @@ Requisitos:
 Instalação:
 - Baixe os arquivos como ZIP
 - Extraia-os em uma pasta de sua hospedagem, ex: /vip
+- Crie as tabelas do arquivo "tables.sql" no banco de dados
 - Abra o arquivo "config.php" e configure o sistema
 - Baixe o [plugin](https://github.com/zDubsCrazy/dbs-auto-shop-plugin) e coloque-o no servidor
 - Configure o plugin com os mesmos dados
