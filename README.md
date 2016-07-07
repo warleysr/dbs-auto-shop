@@ -13,5 +13,6 @@ Instalação:
 - Baixe os arquivos como ZIP
 - Extraia-os em uma pasta de sua hospedagem, ex: /vip
 - Abra o arquivo "config.php" e configure o sistema
-- Baixe o plugin e coloque-o no servidor
-- Configure o plugin com os mesmos dados do sistema
+- Baixe o [plugin](https://github.com/zDubsCrazy/dbs-auto-shop-plugin) e coloque-o no servidor
+- Configure o plugin com os mesmos dados
+- Reinicie o servidor
