@@ -1,4 +1,4 @@
-# mc-auto-shop
+# dbs-auto-shop
 Sistema automático de vendas para servidores de Minecraft usando PagSeguro
 
 Esse sistema é uma combinação de site + plugin (Bukkit) para automatizar a venda de VIPS.
