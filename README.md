@@ -1,4 +1,4 @@
-No# dbs-auto-shop
+# dbs-auto-shop
 Sistema automático de vendas para servidores de Minecraft usando PagSeguro
 
 Esse sistema é uma combinação de site + plugin (Bukkit) para automatizar a venda de VIPS.
@@ -20,5 +20,4 @@ Instalação:
 Seus clientes poderão comprar produtos acessando:
 http://seusite.com.br/pasta-de-instalacao
 
-Atualmente, para cadastrar produtos é apenas inserindo diretamente ao banco de dados, na tabela "produtos". 
-TALVEZ um "painel admin" venha na próxima versão.
+Atualmente, para cadastrar produtos é apenas inserindo diretamente ao banco de dados, na tabela "produtos". TALVEZ um "painel admin" venha na próxima versão.
