@@ -8,8 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$code = $_POST["notificationCode"];
 
     $mode = $sandbox ? "sandbox." : "";
-	$url = "https://ws." . $mode . "pagseguro.uol.com.br/v3/transactions/notifications/
-	$code?email=$email&token=$token";
+	$url = "https://ws." . $mode . "pagseguro.uol.com.br/v3/transactions/notifications/$code?email=$email&token=$token";
 
 	$curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
